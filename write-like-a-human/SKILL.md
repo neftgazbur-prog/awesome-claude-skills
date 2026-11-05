@@ -38,6 +38,19 @@ Write a bio of <person> — run it through write-like-a-human before returning.
 Audit this text for AI-writing tells and fix only what's real.
 ```
 
+## Example
+
+Fictional illustration, not a model benchmark:
+
+**Input:** It's important to note that the team plays a pivotal role in maintaining the archive. The team checks 120 records every Friday.
+
+**Illustrative edit:** The team maintains the archive and checks 120 records every Friday.
+
+Preserve names, numbers, dates, quotations, and source-supported facts. Do not invent specifics to make a rewrite sound concrete. Review all changes against the input.
+
+The phrase patterns target English. They are editing heuristics, not evidence of AI authorship. Agent behavior varies; no detector score or model outcome is guaranteed.
+
+This directory is licensed under CC BY-SA 4.0; see [LICENSE](LICENSE) and [NOTICE.md](NOTICE.md).
 ## The workflow
 
 1. Draft normally.
